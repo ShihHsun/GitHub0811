@@ -56,28 +56,50 @@ $theme-colors: (
 );
 
 // 自訂義間距
-$spacer: 1rem;
+$spacer: 1px;
 $spacers: (
-  0: 0,
-  1: $spacer * 0.25,
-  2: $spacer * 0.5,
-  3: $spacer * 0.75,
-  4: $spacer,
-  5: $spacer * 1.5,
-  6: $spacer * 3,
-  7: $spacer * 5,
+    0: 0,
+    xxs: $spacer * 4,
+    xs: $spacer * 8,
+    s: $spacer * 12,
+    m: $spacer *16,
+    l: $spacer * 20,
+    xl: $spacer *24,
+    xxl: $spacer *32,
+    xxxl: $spacer *40,
+    4xl: $spacer *48,
+    5xl: $spacer *56,
+    6xl: $spacer *64,
 );
 
 // 自訂義字體
 $enable-rfs: false; // 是否啟用 RFS (Responsive Font Size)
 $font-size-base: 1rem;
-$h1-font-size: $font-size-base * 3;
-$h5-font-size: $font-size-base * 1.125;
+$header-title-font-size: $font-size-base * 12.5;
+$header-xxl-font-size: $font-size-base * 10;
+$header-xl-font-size: $font-size-base * 9;
+$header-l-font-size: $font-size-base * 8;
+$header-m-font-size: $font-size-base * 7;
+$header-s-font-size: $font-size-base * 6;
+$header-xs-font-size: $font-size-base * 5;
+
+$label-l-font-size: $font-size-base * 4.5;
+$label-m-font-size: $font-size-base * 4;
+$label-s-font-size: $font-size-base * 3.5;
+$label-xs-font-size: $font-size-base * 3;
+
+$paragraph-xl-font-size: $font-size-base * 5;
+$paragraph-l-font-size: $font-size-base * 4.5;
+$paragraph-m-font-size: $font-size-base * 4;
+$paragraph-s-font-size: $font-size-base * 3.5;
+$paragraph-xs-font-size: $font-size-base * 3;
 
 //自訂圓角
-$border-radius: 1rem;
-$border-radius-sm: 0.75rem;
-$border-radius-lg: 1.5rem;
+$border-radius-s: 1px;
+$border-radius-m: 8px;
+$border-radius-l: 12px;
+$border-radius-xl: 16px;
+$border-radius-round: 1000px;
 
 //自訂陰影
 $box-shadow: 0 0 1rem rgba(#000, 0.12) !default;
